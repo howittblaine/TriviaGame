@@ -1,0 +1,45 @@
+body{
+    background-image: url("../images/Gaxlaxy.jpeg");
+    text-align: center;
+}
+
+h2, row{
+    color: #ffffff;
+    text-align: center;
+}
+
+.jumbotron{
+    margin-top: 10px;
+    padding: 2px 0px 2px 0px;
+
+}
+
+.gif{
+    width: 50%;
+}
+
+.btn { 
+    color: #ffffff; 
+    background-color: #6c61d9; 
+    border-color: #FFFFFF; 
+    width: 50%;
+} 
+  
+.pointer {
+    cursor: pointer;
+}
+   
+  .btn .badge { 
+    color: #6c61d9; 
+    background-color: #ffffff; 
+    width: 50%;
+  }
+  
+#image-holder,
+#correct-holder,
+#incorect-holder,
+#answer-holder{
+    text-align: center;
+
+    
+}
