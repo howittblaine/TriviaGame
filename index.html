@@ -5,21 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+<!-- Web Page Title -->
     <title>Marvel Trivia || Blaine Howitt</title>
 
+<!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!-- JQuery -->    
     <script src="https://code.jquery.com/jquery.js"></script>
+<!-- JavaScript -->
     <script src="assets/javascript/app.js" ></script>
-
 
 </head>
 
-
 <body>
 
-<!-- main container -->
+<!-- Main Header -->
 <div class="container-fluid col-8" id="mainBox">
 
 <div class="jumbotron bg-transparent text-light">
@@ -33,7 +35,7 @@
 
 </div>
 
-
+<!-- Start Button -->
 <row>
         <div class="col-md-12"></div>
         <div class="col-md-12">
@@ -41,17 +43,23 @@
         </div>
         <div class="col-md-12"></div>
     </row>
+
+    <!-- Time Holder -->
     <row>
         <div class="col-md-12">
             <h2><div class= "bg-dark" id="time-holder"></div></h2>
         </div>
     </row>
+
+    <!-- Question/Answer Holder -->
      <row>
         <div class="col-md-12">
             <h2><div class= "bg-light text-dark" id="question-holder"></div></h2>
             <h2><div class= "bg-light text-dark" id="answer-holder"></div></h2>
         </div>
     </row>
+
+    <!-- Gif Holder -->
     <row>
         <div class="col-md-12"></div>
         <div class="col-md-12">
@@ -59,40 +67,52 @@
         </div>
         <div class="col-md-12"></div>
     </row>
+
+    <!-- Shows 1st choice -->
     <row>
         <div class="col-md-12">
             <h2><div class= "bg-dark" id="choice-holder-1"></div></h2>
         </div>
         <div class="col-md-12"></div>
+        <!-- Shows "Correct" message -->
         <div class="col-md-12">
             <h2><div class= "bg-dark" id="correct-holder"></div></h2>
         </div>
         <div class="col-md-12"></div>
+
+    <!-- Shows 2nd choice -->    
     <row>
         <div class="col-md-12">
             <h2><div class= "bg-dark" id="choice-holder-2"></div></h2>
         </div>
         <div class="col-md-12"></div>
+        <!-- Shows "Wrong" message -->
         <div class="col-md-12">
             <h2><div id="incorrect-holder"></div></h2>
         </div>
         <div class="col-md-12"></div>
     </row>
+
+    <!-- Shows 3rd choice -->
     <row>
         <div class="col-md-12">
             <h2><div class= "bg-dark" id="choice-holder-3"></div></h2>
         </div>
         <div class="col-md-12"></div>
+        <!-- Shows "Unanswered" message -->
         <div class="col-md-12">
             <h2><div id="unanswered-holder"></div></h2>
         </div>
         <div class="col-md-12"></div>
     </row>
+
+    <!-- Shows 4th choice -->
     <row>
         <div class="col-md-12">
             <h2><div class= "bg-dark" id="choice-holder-4"></div></h2>
         </div>
         <div class="col-md-12"></div>
+        <!-- Shows "Restart" message -->
         <div class="col-md-12">
             <h2><div id="restart-holder"></div></h2>
         </div>

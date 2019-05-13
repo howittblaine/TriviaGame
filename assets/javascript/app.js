@@ -17,10 +17,15 @@ $(document).ready(function(){
     "What is the name of T'challa's (Black Panther) sister?", 
     "Who is Thor's bother?", 
     "Which of these is not an Infinty Stone?"];
+    
     var answer = ["Steve Rodgers", "Vibranium", "Mjolnir", "Nick Fury", "Earth", "Shuri", "Loki", "Speed", "A Lion", "Neville Longbottom"];
+    
     var firstChoice = ["Steve Rodgers", "Adamantium", "Stormbreaker", "Tony Stark", "Xandar", "Shuri", "Skurge", "Strength"];
+    
     var secondChoice = ["Clint Barton", "Carbonadium", "Thunderstrike", "Captain Marvel", "Morag", "Nakia", "Odin", "Speed"];
+    
     var thirdChoice = ["Peter Parker", "Vibranium", "Mjolnir", "Dr. Steven Strange", "Knowhere", "Okoye", "Loki", "Mind"];
+    
     var fourthChoice = ["Bruce Banner", "Gravitonium", "Gungnir", "Nick Fury", "Earth", "Ramonda", "Heimdall", "Soul"];
 
 // Show & Hide Functions
@@ -89,7 +94,7 @@ $(document).ready(function(){
         checkGameEnd();  
     }
 
-// Chekc End Game Function
+// Check End Game Function
     function checkGameEnd() {
         if(count === question.length) {
             $("#time-holder").hide();
